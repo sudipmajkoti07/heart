@@ -19,29 +19,25 @@ Follow these steps to set up and run the FastAPI app locally:
    If you haven’t already, clone this repository to your local machine:
    ```bash
    git clone https://github.com/[sudipmajkoti07]/heart.git
-Navigate to the Project Folder
-Change into the project directory:
-bash
-cd heart
-Install the Required Dependencies
-Install all necessary Python packages listed in requirements.txt:
-bash
-pip install -r requirements.txt
-Run the FastAPI App
-Start the FastAPI application using Uvicorn with auto-reload enabled for development:
-bash
-uvicorn main:app --reload
-Access the App Locally
-Open your browser and navigate to:
-http://127.0.0.1:8000
-You should see the app running! For API endpoints, check the automatic interactive documentation at http://127.0.0.1:8000/docs.
-Cloud Deployment
-The model/app is also deployed in the cloud for easy access. You can interact with it at the following URL:
-[Insert cloud URL here, e.g., https://heart-app.herokuapp.com]  
-(Note: Replace the placeholder with the actual deployed URL if available.)
-Troubleshooting
-Port Conflict: If http://127.0.0.1:8000 is unavailable, another process might be using port 8000. Stop the conflicting process or run the app on a different port with uvicorn main:app --reload --port 8001.
-Dependency Errors: Ensure your Python version matches the requirements and that requirements.txt is correctly formatted.
-Contributing
-Feel free to submit issues or pull requests if you’d like to contribute to this project!
-License
+
+Heart Project
+This is a FastAPI-based application. Follow the instructions below to set up, run, and deploy the project locally or in the cloud.
+Prerequisites
+Python 3.x installed
+pip (Python package manager)
+A terminal or command-line interface
+(Optional) A web browser for testing
+Setup Instructions
+1. Navigate to the Project Folder
+Open your terminal.
+Change into the heart project directory.
+2. Install Required Dependencies
+Install all necessary Python packages listed in requirements.txt using pip.
+3. Run the FastAPI App
+Start the FastAPI application using Uvicorn.
+Enable auto-reload for development mode.
+4. Access the App Locally
+Open your browser.
+Navigate to: http://127.0.0.1:8000
+You should see the app running!
+Check the interactive API documentation at: http://127.0.0.1:8000/docs
